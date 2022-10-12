@@ -17,6 +17,6 @@ phases:
     commands:
       - cd ../..
       - cd /codebuild/output/
-      - sonar-scanner -Dsonar.projectKey=aws_code_PHPDevSecOps -Dsonar.organization=gastonbarbaccia -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=8abff51dcbcac992a96e53d3e35f1b424e85aeec -Dsonar.scm.disabled=True -Dsonar.java.binaries=/tmp/empty
+      - sonar-scanner -Dsonar.projectKey=aws_code_PHPDevSecOps -Dsonar.organization=gastonbarbaccia -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=8abff51dcbcac992a96e53d3e35f1b424e85aeec -Dsonar.scm.disabled=True
 
 
